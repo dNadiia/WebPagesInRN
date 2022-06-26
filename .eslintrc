@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "@typescript-eslint/no-boolean-literal-compare": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "jest/no-done-callback": 0,
+    "jest/expect-expect": 0,
+    "indent": ["error", 2, { "SwitchCase": 1 }]
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
+    "prettier"
+  ]
+}
